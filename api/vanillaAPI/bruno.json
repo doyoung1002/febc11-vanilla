@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "바닐라 API 서버",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

@@ -1,0 +1,21 @@
+meta {
+  name: 게시물 추가
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://11.fesp.shop/posts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "type": "test",
+    "title": "추가해보기",
+    "content": "추가.",
+    "image": "sample-bugatti.png",
+    "tag": "추가합니다"
+  }
+}
